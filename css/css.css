@@ -1,0 +1,396 @@
+*{margin:0;padding:0;font-family:"Microsoft YaHei UI";}
+a:link{
+	color: white;
+	text-decoration:none; 
+}
+a:hover{
+    color: white;
+	text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+/*清除掉各种样式*/
+.head{
+	width:100%;
+	height: 80px;
+	background-color:#07cbc9;
+	position:fixed;
+	z-index: 99999;
+}
+.head .logo{
+    width:260px;
+    height:48px;
+    float: left;
+    padding-top:16px;
+    padding-left:120px;
+}
+.head .nav{
+	height: 80px;
+	float: right;
+}
+.head .nav ul{
+	padding-right: 80px;
+}
+.head .nav ul li{
+	float: left;
+	list-style: none;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 28px 15px;
+	color:white;
+}
+li:hover{
+	background-color: #000;
+}
+/*顶部结束*/
+.banner{
+	width: 100%;height: 600px;
+	padding-top: 80px;
+}
+.banner img{
+	width: 100%;
+	height: 600px;
+}
+.banner .toplayer{
+	top:80px;
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	background-color: #000;
+	opacity:0.5;
+}
+.banner .toplayer .toplayer-top{
+	width: 500px;
+	height: 450px;
+	position: absolute;
+	top:100px;
+	z-index: 2;
+	right: 50%;
+	margin-right: -240px;
+}
+input{
+	width: 486px;
+	height: 45px;
+	border:2px solid white;
+	color: white;
+	padding-left: 10px;
+	margin-bottom: 15px;
+}
+input:hover{
+	background-color: #07cbc9;
+}
+textarea{
+	width: 486px;
+	border:2px solid white;
+	padding-left: 10px;
+	margin-bottom: 15px;
+	height: 115px;
+	color: white;
+	font-size: 10px;
+	padding-top: 10px;
+}
+.button1{
+    margin:0 auto;
+}
+.button1 button{
+	width: 130px;
+	height: 54px;
+	border:2px solid white;
+	margin: 0 auto;
+	text-align: center;
+	padding-left: 5px;
+	position: absolute;
+	color: white;
+}
+.button11{
+	width: 130px;
+	height: 54px;
+	margin-left:190px;
+
+}
+.button11:hover{
+	background-color: #07cbc9
+}
+/*banner结束*/
+.about1{
+	width: 100%;
+	height: 720px;
+}
+.about1-top{
+	padding-top: 50px;
+	width: 100%;
+	height: 170px;
+}
+.about1-top .h1{
+	text-align: center;
+	width: 100%;
+}
+.about1-top .h1 h1{
+	font-size: 50px;
+	color: black;
+	font-weight: bold;
+	font-family:"Microsoft YaHei UI";
+}
+.about1-top hr{
+	margin: 0 auto;
+	width: 2%;
+	border:2px solid #07cbc9;
+	margin-bottom: 20px;
+}
+.about1-top .p{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.about1-top .p p{
+	font-size: 15px;
+	color: #a3a3a3;
+	text-align: center;
+	margin:0 auto;
+}
+.about1-middle{
+	width: 100%;
+	height: 490px;
+}
+.about1-middle .middle{
+	width: 1100px;
+	height: 490px;
+	margin: 0 auto;
+}
+.about1-middle .middle img{
+	margin-left: 265px;
+}
+.about1-middle .left-word{
+     float:left;
+     position: absolute;
+     margin-top: -380px;
+     margin-left: 40px; 
+}
+.about1-middle .left-word p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+.about1-middle .left-middle{
+	float: left;
+	position: absolute;
+    width: 350px;
+    height: 200px;
+    border:1px solid #a3a3a3;
+    margin-top: -290px;
+    background-color: white;
+    opacity:0.5;
+    padding: 20px;margin-left: 20px;
+}
+.about1-middle .left-middle-copy{
+	float: left;
+	position: absolute;
+    width: 350px;
+    height: 200px;
+    border:1px solid #a3a3a3;
+    margin-top: -290px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.left-middle-copy p{
+	color: black;
+	text-align: left;
+	line-height: 27px;
+}
+.left-middle-copy .button2{
+    float: left;
+
+}
+.left-middle-copy .button2 button{
+	width: 104px;
+	height: 46px;
+	margin-top: 13px;
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	z-index: 999;
+	position: absolute;
+}
+.left-middle-copy .button2 button:hover{
+	background-color: white;
+	opacity:0;
+}
+.left-middle-copy .button2copy{
+	width: 102px;
+	height: 44px;
+	margin-top: 13px;
+	color: black;
+	text-align: center;
+	line-height: 46px;
+	font-size: 13px;
+	font-weight: bold;
+	border: 2px solid black;
+}
+.about1-middle .right-middle{
+	width: 230px;
+	height: 150px;
+	border:1px solid #07cbc9;
+	float: right;
+	margin-top: -380px;
+
+}
+.about1-middle .right-middle h1{
+	font-size: 40px;
+	text-align: center;
+	padding:15px 0px;
+}
+.about1-middle .right-middle hr{
+    margin: 0 auto;
+	width: 30px;
+	border:2px solid #07cbc9;
+	margin-bottom: 15px;
+}
+.about1-middle .right-middle p{
+	font-size: 30px;
+	text-align: center;
+}
+.about1-middle .right-middle2{
+	width: 230px;
+	height: 150px;
+	border:1px solid #07cbc9;
+	float: right;
+	margin-top: -190px;
+
+}
+.about1-middle .right-middle2 h1{
+	font-size: 40px;
+	text-align: center;
+	padding:15px 0px;
+}
+.about1-middle .right-middle2 hr{
+    margin: 0 auto;
+	width: 30px;
+	border:2px solid #07cbc9;
+	margin-bottom: 15px;
+}
+.about1-middle .right-middle2 p{
+	font-size: 30px;
+	text-align: center;
+}
+/*about1部分结束*/
+.about2{
+	width: 100%;
+	height: 800px;
+	background-color: #07cbc9;
+	margin: 0 auto;
+}
+.about2 .main-top{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	zoom:1;
+}
+.main-top .one{
+	width: 25%;
+	float: left;
+}
+.main-top .two{
+	width: 25%;
+	height:400px;
+	float: left;
+	position: relative;
+}
+.main-top .two dl dt{
+	font-size: 40px;
+	color:white;
+	text-align: left;
+    padding:20px 10% 10px 10%;
+}
+.main-top .two dl dd{
+	font-size: 19px;
+	color:white;
+	line-height: 25px;
+	padding:0 10%;
+}
+.main-top .two p{
+	font-size: 14px;
+	color:white;
+	line-height: 23px;
+	padding: 10px 10%;
+}
+.main-top .two .button3 button{
+	width: 104px;
+	height: 46px;
+	color: white;
+	border: 2px solid black;
+	position: absolute;
+	margin:0 auto;
+	text-align: center;
+	right: 40%;
+	bottom:15%;
+	background-color: black;
+	position: absolute;
+}
+/*about2结束*/
+.gallery{
+	width: 100%;
+	height: 1000px;
+}
+.gallery h1{
+	font-size: 50px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 50px 0px 20px 0px;
+}
+.gallery hr{
+	margin: 0 auto;
+	width: 3%;
+	border:2px solid #07cbc9;
+	margin-bottom: 20px;
+}
+.gallery .p1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.gallery .p1 p{
+	font-size: 15px;
+	color: #a3a3a3;
+	text-align: center;
+	margin:0 auto;
+	padding-bottom: 30px;
+}
+.gallery .main{
+	width: 1170px;
+	margin:0 auto;
+	height: 730px;
+}
+.gallery .main .div{
+    margin: 0px 15px;
+    float: left;
+    background-color: black;
+    margin-top: 30px;
+}
+.gallery .main .div img{
+	width: 360px;
+	padding: 0;
+	margin:0;
+}
+.gallery .main .div p{
+	color:white;
+	padding: 25px;
+	background-color: black;
+}
+.foot{
+	color:#666;
+	font-size: 20px;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 100px;
+	background-color:#07cbc9; 
+}
+/*结束*/
